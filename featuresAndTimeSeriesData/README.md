@@ -1,6 +1,6 @@
-# dataMining
+# Feature Extraction and Selection from multiple time series data
 
-####Requirements
+#### Requirements
 ```
 $ pip3 install numpy pandas seaborn sklearn
 ```
