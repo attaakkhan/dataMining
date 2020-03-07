@@ -6,7 +6,7 @@ $ pip3 install numpy pandas seaborn sklearn
 ```
 
 
-######Plot orignal time series data
+###### Plot orignal time series data
 
 
 ```
