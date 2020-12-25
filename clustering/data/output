@@ -1,0 +1,69 @@
+[510 rows x 32 columns]
+Splitting iterations:KFold(n_splits=10, random_state=None, shuffle=False)
+TRAIN Indexes[1 2 3 4 5 6 7 8 9]   TEST:[0]
+Train labels:[0, 1, 0, 1, 0, 1, 0, 1, 0]
+Test labels:[1]
+Features filtered from overall:['series_1_distance', 'series_19_fft', 'series_28_fft', 'series_4_std', 'series_12_std', 'series_17_std', 'series_26_std', 'series_29_std']
+PCA TOP Features:['series_19_fft', 'series_28_fft', 'series_1_distance', 'series_29_std', 'series_26_std']
+Score:0.0
+TRAIN Indexes[0 2 3 4 5 6 7 8 9]   TEST:[1]
+Train labels:[1, 1, 0, 1, 0, 1, 0, 1, 0]
+Test labels:[0]
+	Features filtered from overall:['series_1_distance', 'series_21_fft', 'series_30_fft', 'series_13_std', 'series_17_std', 'series_29_std']
+PCA TOP Features:['series_30_fft', 'series_21_fft', 'series_1_distance', 'series_29_std', 'series_17_std']
+Score:1.0
+TRAIN Indexes[0 1 3 4 5 6 7 8 9]   TEST:[2]
+Train labels:[1, 0, 0, 1, 0, 1, 0, 1, 0]
+Test labels:[1]
+Features filtered from overall:['series_1_distance', 'series_7_fft', 'series_19_fft', 'series_30_fft', 'series_12_std', 'series_15_std', 'series_17_std', 'series_29_std']
+PCA TOP Features:['series_7_fft', 'series_19_fft', 'series_30_fft', 'series_1_distance', 'series_29_std']
+Score:1.0
+TRAIN Indexes[0 1 2 4 5 6 7 8 9]   TEST:[3]
+Train labels:[1, 0, 1, 1, 0, 1, 0, 1, 0]
+Test labels:[0]
+Features filtered from overall:['series_1_distance', 'series_19_fft', 'series_28_fft', 'series_12_std', 'series_17_std', 'series_29_std']
+PCA TOP Features:['series_19_fft', 'series_28_fft', 'series_1_distance', 'series_29_std', 'series_17_std']
+Score:1.0
+TRAIN Indexes[0 1 2 3 5 6 7 8 9]   TEST:[4]
+Train labels:[1, 0, 1, 0, 0, 1, 0, 1, 0]
+Test labels:[1]
+Features filtered from overall:['series_1_distance', 'series_1_fft', 'series_11_fft', 'series_22_fft', 'series_30_fft', 'series_4_std', 'series_12_std', 'series_17_std', 'series_29_std']
+PCA TOP Features:['series_11_fft', 'series_1_fft', 'series_30_fft', 'series_22_fft', 'series_1_distance']
+Score:0.0
+TRAIN Indexes[0 1 2 3 4 6 7 8 9]   TEST:[5]
+Train labels:[1, 0, 1, 0, 1, 1, 0, 1, 0]
+Test labels:[0]
+Features filtered from overall:['series_1_distance', 'series_19_fft', 'series_30_fft', 'series_12_std', 'series_17_std', 'series_29_std']
+PCA TOP Features:['series_19_fft', 'series_30_fft', 'series_1_distance', 'series_29_std', 'series_17_std']
+Score:1.0
+TRAIN Indexes[0 1 2 3 4 5 7 8 9]   TEST:[6]
+Train labels:[1, 0, 1, 0, 1, 0, 0, 1, 0]
+Test labels:[1]
+Features filtered from overall:['series_1_distance', 'series_20_fft', 'series_4_std', 'series_12_std', 'series_15_std', 'series_17_std', 'series_29_std']
+PCA TOP Features:['series_20_fft', 'series_1_distance', 'series_29_std', 'series_4_std', 'series_15_std']
+Score:1.0
+TRAIN Indexes[0 1 2 3 4 5 6 8 9]   TEST:[7]
+Train labels:[1, 0, 1, 0, 1, 0, 1, 1, 0]
+Test labels:[0]
+Features filtered from overall:['series_1_distance', 'series_19_fft', 'series_28_fft', 'series_12_std', 'series_17_std', 'series_29_std']
+PCA TOP Features:['series_28_fft', 'series_19_fft', 'series_1_distance', 'series_29_std', 'series_17_std']
+Score:1.0
+TRAIN Indexes[0 1 2 3 4 5 6 7 9]   TEST:[8]
+Train labels:[1, 0, 1, 0, 1, 0, 1, 0, 0]
+Test labels:[1]
+Features filtered from overall:['series_1_distance', 'series_19_fft', 'series_30_fft', 'series_15_std', 'series_17_std', 'series_30_std']
+PCA TOP Features:['series_19_fft', 'series_30_fft', 'series_1_distance', 'series_30_std', 'series_17_std']
+Score:1.0
+TRAIN Indexes[0 1 2 3 4 5 6 7 8]   TEST:[9]
+Train labels:[1, 0, 1, 0, 1, 0, 1, 0, 1]
+Test labels:[0]
+Features filtered from overall:['series_1_distance', 'series_19_fft', 'series_26_fft', 'series_12_std', 'series_15_std', 'series_17_std', 'series_30_std']
+PCA TOP Features:['series_19_fft', 'series_26_fft', 'series_1_distance', 'series_30_std', 'series_17_std']
+Score:1.0
+[0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+Total Score:0.8
+[0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+Recall: 0.80 (+/- 0.80)
+[0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+Recall: 0.80 (+/- 0.80)
+asd
